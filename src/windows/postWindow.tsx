@@ -34,7 +34,7 @@ const PostWindow = ({ route }: Props) => {
         getPostComments(id)
     }
 
-    const renderItem = ({ item }: { item: Partial<Comment> }) => {
+    const renderItem = ({ item }: { item: Comment }) => {
 
         if (item) return <CommentCard item={item} />
         return (

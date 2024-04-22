@@ -5,8 +5,8 @@ import FastImage from 'react-native-fast-image'
 import { avatarImageLinks } from '../../utilities/constants';
 
 interface Props {
-    Comment: Comment
-}
+    item: Comment;
+  }
 
 const CommentCard = React.memo(({ item }: Props) => {
 

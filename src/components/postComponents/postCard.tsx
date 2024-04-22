@@ -6,8 +6,11 @@ import BouncableView from '../animatedComponents/bounceableView';
 import { avatarImageLinks } from '../../utilities/constants';
 import { useNavigation } from '@react-navigation/native';
 
+interface Props {
+    item: Post;
+  }
 
-const PostCard = React.memo(({ item }: Post) => {
+const PostCard = React.memo(({ item }: Props) => {
 
     const [avatar, setAvatar] = useState<string | undefined>();
 

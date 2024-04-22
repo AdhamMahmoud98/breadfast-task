@@ -17,7 +17,7 @@ const HomeWindow = () => {
         getPostList();
     }
 
-    const renderItem = ({ item }: { item: Partial<Post> }) => {
+    const renderItem = ({ item }: { item: Post }) => {
 
         if (item) return <PostCard item={item} />
         return (
