@@ -56,14 +56,14 @@ const PostWindow = ({ route }: Props) => {
             </View>
             {/* Comments Section */}
             <View style={commentsListContainer}>
-                <FlashList
+             { data?.length !== 0 ?  <FlashList
                     data={isLoading ? Array(10).fill(0) : data}
                     renderItem={renderItem}
                     showsVerticalScrollIndicator={false}
                     estimatedItemSize={10}
                     onRefresh={onRefresh}
                     refreshing={isFetching}
-                />
+                /> : <Text style={{...titleStyle, marginTop: 20}}>{'No Comments at the moment'}</Text> }
             </View>
         </View>
     );

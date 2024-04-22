@@ -51,13 +51,7 @@ const styles = StyleSheet.create({
     cardContainer: {
         flexDirection: 'row',
         padding: 16,
-        marginBottom: 8,
-        backgroundColor: '#fff',
-        borderRadius: 4,
-        shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.1,
-        shadowRadius: 4,
     },
     cardImage: {
         width: 80,

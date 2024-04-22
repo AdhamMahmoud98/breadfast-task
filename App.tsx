@@ -11,6 +11,7 @@ import { HomeWindow } from './src/windows/homeWindow';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { store } from './src/state/store';
 import { PostWindow } from './src/windows/postWindow';
+import { SplashWindow } from './src/windows/splashWindow';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -26,6 +27,7 @@ const App = (): React.JSX.Element => {
     <Provider store={store}>
     <NavigationContainer>
       <Stack.Navigator>
+        <Stack.Screen name="Splash" component={SplashWindow} options={{headerShown: false}} />
         <Stack.Screen name="Home" component={HomeWindow} />
         <Stack.Screen name="Post" component={PostWindow} />
       </Stack.Navigator>
