@@ -1,4 +1,30 @@
-This is Breadfast interview task:
+**This is Breadfast interview task:**
+
+**Libraries used in this repo:**
+
+1- Redux-Toolkit Query for API calls (RTK Query).
+
+2- Shopify's Flashlist (For fast performant list rendering rather than flatlist).
+
+3- React native skeleton placeholder (for shimmer loading effect).
+
+4- React Navigation (Navigating through screens).
+
+5- React Native fast Image (For fast rendering cached images).
+
+
+**Developer Comments:**
+
+1- In the requirements the username was mentioned in the post list however the API doesn't return it in the response of the post list so I used the user_id instead given that the intent was the same.
+
+
+
+
+
+
+
+
+
 
 For cloning the repo and running the project, please follow these requirements:
 
