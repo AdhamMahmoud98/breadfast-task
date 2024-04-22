@@ -2,21 +2,30 @@ This is Breadfast interview task:
 
 For cloning the repo and running the project, please follow these requirements:
 
-1- run "yarn" for installing all the neccessary node modules
 
 
-For running the app on iOS:
+run "yarn" for installing all the neccessary node modules
 
-1- run "pod install"
-2- run "yarn ios" if this didn't work try running "yarn" & "pod install" again then try running the app from Xcode by opening the workspace file on Xcode
 
-For running the app on Android:
+
+
+**For running the app on iOS:**
+
+1- run "pod install".
+
+2- run "yarn ios" if this didn't work try running "yarn" & "pod install" again then try running the app from Xcode by opening the workspace file on Xcode.
+
+
+
+**For running the app on Android:**
+
+
 1- run "yarn android" if the build fails please run the app from Android Studio by opening the android folder in the project from Android Studio
 
 
-Here are some screenshots with from the app meeting the requirements:
-
-iOS:
+**Here are some screenshots with from the app meeting the requirements:
+**
+**iOS:**
 
 
 
@@ -33,7 +42,7 @@ iOS:
 
 
 
-Android:
+**Android:**
 
 
 
