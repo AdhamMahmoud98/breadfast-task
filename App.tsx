@@ -1,8 +1,6 @@
 import React from 'react';
-import type { PropsWithChildren } from 'react';
 import {
   StyleSheet,
-  useColorScheme,
 } from 'react-native';
 
 import { Provider } from 'react-redux';
@@ -13,9 +11,6 @@ import { store } from './src/state/store';
 import { PostWindow } from './src/windows/postWindow';
 import { SplashWindow } from './src/windows/splashWindow';
 
-type SectionProps = PropsWithChildren<{
-  title: string;
-}>;
 
 const Stack = createNativeStackNavigator();
 

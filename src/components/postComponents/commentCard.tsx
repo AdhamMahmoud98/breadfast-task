@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { Comment, Post, PostScreenProps } from '../../types/types';
+import { Comment } from '../../types/types';
 import FastImage from 'react-native-fast-image'
-import BouncableView from '../animatedComponents/bounceableView';
 import { avatarImageLinks } from '../../utilities/constants';
-import { useNavigation } from '@react-navigation/native';
 
 interface Props {
     Comment: Comment

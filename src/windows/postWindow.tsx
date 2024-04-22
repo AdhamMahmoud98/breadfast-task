@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { View, Text, StyleSheet, FlatList } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
 import FastImage from 'react-native-fast-image';
 import { useLazyGetPostCommentsQuery } from '../state/services/posts/postApi';
 import { FlashList } from '@shopify/flash-list';
