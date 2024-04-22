@@ -25,8 +25,10 @@ const HomeWindow = () => {
         )
     }
 
+    const {container} = styles;
+
     return (
-        <View style={{ backgroundColor: 'white', flex: 1 }}>
+        <View style={container}>
             <FlashList
                 data={isLoading ? Array(10).fill(0) : data}
                 renderItem={renderItem}
@@ -39,6 +41,8 @@ const HomeWindow = () => {
     )
 }
 
-export { HomeWindow }
+const styles = StyleSheet.create({
+    container: { backgroundColor: 'white', flex: 1 }
+})
 
-const styles = StyleSheet.create({})
+export { HomeWindow }
