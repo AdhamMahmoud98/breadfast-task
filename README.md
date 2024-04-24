@@ -4,7 +4,7 @@
 
 1- Redux-Toolkit Query for API calls (RTK Query).
 
-2- Shopify's Flashlist (For fast performant list rendering rather than flatlist).
+2- Shopify's Flashlist (For fast performance list rendering rather than flatlist).
 
 3- React native skeleton placeholder (for shimmer loading effect).
 
